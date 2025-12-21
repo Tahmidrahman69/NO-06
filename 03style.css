@@ -8,7 +8,7 @@ html{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -46,6 +46,7 @@ header{
     color: white;
     border: 2px solid white;
     border-radius: 50%;
+   
  }
 
  nav ul li{
@@ -160,7 +161,7 @@ header{
     }
 
     .card-body img{
-        max-width: 100%;
+        width: 100%;
         height: auto;
         display: block;
     }
@@ -192,14 +193,30 @@ header{
     padding: 1%;
 }
 
-.card-body{
+/* .card-body{
     text-align: center;
+} */
+
+/* .card-body img{
+    width: 100%;
+    display: block; 
+    height: 160px; 
+} */
+
+
+.card-body{
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* image ratio */
+  overflow: hidden;
 }
 
 .card-body img{
-    width: 100%;
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
+
 
 .item-desc{
     background-color: rgba(165,164,164);
@@ -264,7 +281,7 @@ header{
 /* contact start */
 
 
-@media (min-width: 576){
+@media (min-width: 576px){
 
     /* small device (mobile) */
 .col-sm-1{ 
@@ -346,7 +363,7 @@ footer p{
 
   /* medium  device (mobile) */
 
-@media (min-width: 768){
+@media (min-width: 768px){
 
     
 .col-md-1{ 
@@ -391,19 +408,55 @@ footer p{
 
 /* large  device (mobile) */
 
-@media (min-width: 992){
+@media (min-width: 992px){
 
 .logo-div{
     text-align: left;
 }
-
-nav ul li{
-    display: inline-block;
-}
-
 nav ul{
     text-align: right;
 }
+nav ul li{
+    display: inline-block;
+    transition: .4s;
+}
+
+nav ul li a:hover{
+    background-color: transparent;
+    transform: scale(1.2);
+    text-decoration: underline;
+    border-radius: 0;
+}
+
+
+#banner-section{
+    position: relative;
+    height: 100vh;
+}
+
+.banner-contents{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.banner-contents h1{
+    width: 700px;
+    font-size: 3.5rem;
+}
+
+.banner-contents p{
+    width: 500px;
+    font-size: 2rem;
+}
+footer p{
+    text-align: left;
+}
+.social-menu{
+    text-align: right;
+}
+
 .col-lg-1{ 
     width: 8.33%;
  }
