@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an ecommerce project for making tahmid express">
+    <title>Smile Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="03style.css">
+</head>
+<body>
+     <!-- navbar start here -->
+
+        <div class="menu-bar">
+            <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+        </div>
+     
+
+        <nav id="menu" class="hidden">
+            <ul class="nav-upper flex-space-around">
+                <li class="nav_list">
+                    <a href="index.html"
+                    class="nav_link">Home</a>
+                </li>
+
+                <li class="nav_list">
+                    <a href="register.html"
+                    class="nav_link">Register</a>
+                </li>
+
+
+                <li class="nav_list">
+                    <a href="login.html"
+                    class="nav_link">Login</a>
+                </li>
+
+
+                <li class="nav_list">
+                    <a href="index.html"
+                    class="nav_link">Logout</a>
+                </li>
+
+                 <li class="nav_list">
+                    <a href="contact.html"
+                    class="nav_link">Contact</a>
+                </li>
+
+                 <li class="nav_list">
+                   <a href="profile.html" class="nav_link">
+                         <img class="profile-icon"
+                        src="images/ecommerce/logo.png"
+                        alt="profile icon"> 
+                   </a>
+                </li>
+            </ul>
+
+
+            <ul class="nav-lower flex-space-around">
+                <li class="nav_list">
+                    <a href="index.html"class="nav_brand 
+                    nav_link">Smile Shop</a>
+                </li>
+
+
+                <li class="nav_list">
+                    <a href="cart.html"class="nav_link">
+                        <span><i class="fa-solid
+                         fa-cart-arrow-down"></i></span>
+                        Cart 2 Products -$124.40
+                </a>
+                </li>
+            </ul>
+        </nav>
+
+     <!-- navbar ends here -->
+
+     <!-- header start here  -->
+
+            <header class="header">
+                <div class="banner flex-center">
+                    <marquee class="banner_title" behavior="" direction="">50% Sales Going On -
+                     All Products
+                    </marquee>
+                    <div class="features flex-space-around">
+                        <article class="feature flex-center">
+                            <i class="fa-solid fa-truck feature_icon flex-center"></i>
+                            <h3>Free Shipping</h3>
+                        </article>
+
+                        <article class="feature flex-center">
+                            <i class="fa-brands fa-rocketchat feature_icon"></i>
+                            <h3>Support 24/7</h3>
+                        </article>
+
+                        <article class="feature flex-center">
+                            <i class="fa-regular fa-credit-card feature_icon"></i>
+                            <h3>Safe Payment</h3>
+                        </article>
+                    </div>
+
+                </div>
+            </header>
+
+     <!-- header ends here  -->
+
+        <main class="flex-center">
+            <div class="sidebar">
+                <section class="categories-section">
+                    <h3 class="section-title">Categories</h3>
+                    <ul class="list">
+                        <li class="list_item">
+                            <label for="Phones">
+                                <input type="checkbox" name="Phones" id="Phones" value="Phones">
+                                Phones
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="Tablets">
+                                <input type="checkbox" name="Tablets" id="Tablets" value="Tablets">
+                                Tablets
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="Telivisions">
+                                <input type="checkbox" name="Telivisions" id="Telivisions" value="Telivisions">
+                                Telivisions
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="Laptops">
+                                <input type="checkbox" name="Laptops" id="Laptops" value="Laptops">
+                                Laptop
+                            </label>
+                        </li>
+
+
+                           <li class="list_item">
+                            <label for="Headphones">
+                                <input type="checkbox" name="Headphones" id="Headphones" value="Headphones">
+                                Headphones
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+
+
+                <section class="price-section">
+                    <h3 class="section-title">Price Range</h3>
+                    <ul class="list">
+                        <li class="list_item">
+                            <label for="price1">
+                                <input type="radio" name="price" id="price1" value="price1">
+                                $0 - $50
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="price2">
+                                <input type="radio" name="price" id="price2" value="price2">
+                                $50 - $100
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="price3">
+                                <input type="radio" name="price" id="price3" value="price3">
+                                $100 - $200
+                            </label>
+                        </li>
+
+                           <li class="list_item">
+                            <label for="price4">
+                                <input type="radio" name="price" id="price4" value="price4">
+                                $200+
+                            </label>
+                        </li>
+
+
+                           <li class="list_item">
+                            <label for="price5">
+                                <input type="radio" name="price" id="price5" value="price5">
+                                $500+
+                            </label>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="Shipping-section">
+                    <h3 class="section-title">Shipping-Options</h3>
+                    <ul class="list">
+                        <li class="list_item">
+                            <label for="free">
+                                <input type="radio" name="Shipping" id="free" value="free">
+                                Free Shipping
+                            </label>
+                        </li>
+
+
+                        <li class="list_item">
+                            <label for="paid">
+                                <input type="radio" name="Shipping" id="paid" value="paid">
+                                Paid Shipping
+                            </label>
+                        </li>
+                        </ul>
+                </section>
+
+            </div>
+             <div class="main-content">
+                <section class="actions flex-space-around">
+                    <div class="actions_sort">
+                            <label for="sort">Sort By:</label>
+                            <select name="sort" id="sort">
+                                <option value="Sold">Most Sold First</option>
+                                <option value="rating">Most Rated First</option>
+                                <option value="price">Cheapest First</option>
+                                <option value="arrival">Newest Arrival</option>
+                                <option value="discount">Discounted Items</option>
+                            </select>
+                    </div>
+
+                    <div class="actions_search">
+                        <input type="text" placeholder="search Products">
+                        <button class="btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    
+                </section>
+
+                <!-- Products section start here -->
+
+                    <section class="products">
+                        <article class="product card">
+                            <div class="badge">
+                                <span>5 in stock</span>
+                                <hr class="hr-design">
+                                <span>3 sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product.jpg" alt="product1">
+                            <div class="product_body">
+                                <h3 class="product_name">Remax Headphone</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                    Et erat stet duo no ipsum gubergren 
+                                    magna invidunt. Dolor diam erat diam
+                                    no Et...... <a href="product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$120.00</h4>
+                                <p class="product_rating">Rating: 4.5/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+
+
+                        <article class="product card">
+                            <div class="badge">
+                                <span>2 in stock</span>
+                                <hr class="hr-design">
+                                <span>9 sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product2.jpg" alt="product2">
+                            <div class="product_body">
+                                <h3 class="product_name">Shadow Classic Black Watch</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                    The Shadow Classic Black Watch
+                                    features a sleek and minimalist
+                                    analog design Ipsum. ...... <a href="product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$240.00</h4>
+                                <p class="product_rating">Rating: 5/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+
+
+                        
+                        <article class="product card">
+                            <div class="badge">
+                                <span>12 in stock</span>
+                                <hr class="hr-design">
+                                <span>15 sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product3.jpg" alt="product3">
+                            <div class="product_body">
+                                <h3 class="product_name">Urban Square Black Glasses</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                   Urban Square Black Glasses
+                                   feature a modern square frame
+                                   with a clean, minimalist look...... <a href="product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$100.00</h4>
+                                <p class="product_rating">Rating: 4.4/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+
+                                    <!-- articale 2 start here -->
+
+                        <article class="product card">
+                            <div class="badge">
+                                <span>30 in stock</span>
+                                <hr class="hr-design">
+                                <span>100+ sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product4.jpg" alt="product4">
+                            <div class="product_body">
+                                <h3 class="product_name">SlimPro Silver Laptop</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                    SlimPro Silver Laptop features 
+                                    a sleek, modern design with a 
+                                    compact and lightweight body.
+                                     Ideal for work, study, and everyday use...... <a href="product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$500.00</h4>
+                                <p class="product_rating">Rating: 5/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+
+
+                        <article class="product card">
+                            <div class="badge">
+                                <span>16 in stock</span>
+                                <hr class="hr-design">
+                                <span>30 sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product5.jpg" alt="product5">
+                            <div class="product_body">
+                                <h3 class="product_name">CineView 4K Smart TV</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                    CineView 4K Smart TV delivers
+                                    stunning visuals vibrant colors
+                                    smart features immersive sound 
+                                    perfect for movies gaming and
+                                    everyday ...... <a href="product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$999.00</h4>
+                                <p class="product_rating">Rating: 5/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+
+
+                        
+                        <article class="product card">
+                            <div class="badge">
+                                <span>10 in stock</span>
+                                <hr class="hr-design">
+                                <span>16 sold</span>
+                            </div>
+                            <img class="product_img" src="./images/ecommerce/product6.jpg" alt="product6">
+                            <div class="product_body">
+                                <h3 class="product_name">TCL SlimPad Pro Tablet</h3>
+                                <p>
+                                    <span class="dot green"></span>
+                                    <span class="dot black"></span>
+                                    <span class="dot red"></span>
+                                </p>
+                                <p class="product_description">
+                                   TCL SlimPad Pro Tablet features
+                                    a slim, lightweight design with
+                                     a premium finish. Perfect for
+                                      entertainment, online classes, and everyday tasks...... <a href="/product.html" class="learn-more">Learn More</a>
+                                </p>
+                                <h4 class="product_price">$100.00</h4>
+                                <p class="product_rating">Rating: 4.4/5</p>
+                                <button class="btn product_button">Add To Cart</button>
+                            </div>
+                        </article>
+                    </section>
+
+                    <div class="pagination">
+                        <button class="btn pagination_button">
+                            <i class="fas fa-less-than"></i> 
+                        </button>
+                        <button class="btn pagination_button">1</button>
+                        <button class="btn pagination_button">2</button>
+                        <button class="btn pagination_button">3</button>
+                        <button class="btn pagination_button">4</button>
+                        <button class="btn pagination_button">5</button>
+                        <button class="btn pagination_button">6</button>
+                        <button class="btn pagination_button">7</button>
+                        <button class="btn pagination_button">8</button>
+                        <button class="btn pagination_button">
+                            <i class="fas fa-greater-than"></i> 
+                        </button>
+                    </div>
+
+                <!-- Products section ends here -->
+             </div>
+        </main>
+
+    <!-- footer start here -->
+
+     <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe To News Letter:</label>
+            <input type="email" id="Subscribe"
+            name="Subscribe" class="footer_input"
+            placeholder="Enter Your Email">
+            <button class="btn btn-sunscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; 2024 Tahmid Express. All rights reserved.</p>
+        </div>
+     </footer>
+    
+     
+
+      <!-- footer ends here -->
+
+
+      <script src="./scripts/index.js"></script>
+
+</body>
+</html>
