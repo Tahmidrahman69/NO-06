@@ -3,440 +3,303 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="this is an ecommerce project for making tahmid express">
-    <title>Smile Shop</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
     <link rel="stylesheet" href="03style.css">
+
+<!-- Google Fonts Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- Google Font: Italiana -->
+<link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+
+<!-- Google Font: Roboto -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-     <!-- navbar start here -->
+    <!-- header start here -->
 
-        <div class="menu-bar">
-            <i class="fas fa-bars fa-2x" id="menu-icon"></i>
-        </div>
-     
+        <header id="blog-header">
+            <figure class="logo-figure">
+                <i class="fab fa-autoprefixer logo"></i>
+            </figure>
 
-        <nav id="menu" class="hidden">
-            <ul class="nav-upper flex-space-around">
-                <li class="nav_list">
-                    <a href="index.html"
-                    class="nav_link">Home</a>
-                </li>
+                <i class="fas fa-bars fa-4x" id="menu-icon"></i>
 
-                <li class="nav_list">
-                    <a href="register.html"
-                    class="nav_link">Register</a>
-                </li>
-
-
-                <li class="nav_list">
-                    <a href="login.html"
-                    class="nav_link">Login</a>
-                </li>
-
-
-                <li class="nav_list">
-                    <a href="/index.html"
-                    class="nav_link">Logout</a>
-                </li>
-
-                 <li class="nav_list">
-                    <a href="contact.html"
-                    class="nav_link">Contact</a>
-                </li>
-
-                 <li class="nav_list">
-                   <a href="profile.html" class="nav_link">
-                         <img class="profile-icon"
-                        src="images/logo.png"
-                        alt="profile icon"> 
-                   </a>
-                </li>
-            </ul>
-
-
-            <ul class="nav-lower flex-space-around">
-                <li class="nav_list">
-                    <a href="index.html"class="nav_brand 
-                    nav_link">Smile Shop</a>
-                </li>
-
-
-                <li class="nav_list">
-                    <a href="/cart.html"class="nav_link">
-                        <span><i class="fa-solid
-                         fa-cart-arrow-down"></i></span>
-                        Cart 2 Products -$124.40
-                </a>
-                </li>
-            </ul>
-        </nav>
-
-     <!-- navbar ends here -->
-
-     <!-- header start here  -->
-
-            <header class="header">
-                <div class="banner flex-center">
-                    <marquee class="banner_title" behavior="" direction="">50% Sales Going On -
-                     All Products
-                    </marquee>
-                    <div class="features flex-space-around">
-                        <article class="feature flex-center">
-                            <i class="fa-solid fa-truck feature_icon flex-center"></i>
-                            <h3>Free Shipping</h3>
-                        </article>
-
-                        <article class="feature flex-center">
-                            <i class="fa-brands fa-rocketchat feature_icon"></i>
-                            <h3>Support 24/7</h3>
-                        </article>
-
-                        <article class="feature flex-center">
-                            <i class="fa-regular fa-credit-card feature_icon"></i>
-                            <h3>Safe Payment</h3>
-                        </article>
-                    </div>
-
-                </div>
-            </header>
-
-     <!-- header ends here  -->
-
-        <main class="flex-center">
-            <div class="sidebar">
-                <section class="categories-section">
-                    <h3 class="section-title">Categories</h3>
-                    <ul class="list">
-                        <li class="list_item">
-                            <label for="Phones">
-                                <input type="checkbox" name="Phones" id="Phones" value="Phones">
-                                Phones
-                            </label>
-                        </li>
-
-                           <li class="list_item">
-                            <label for="Tablets">
-                                <input type="checkbox" name="Tablets" id="Tablets" value="Tablets">
-                                Tablets
-                            </label>
-                        </li>
-
-                           <li class="list_item">
-                            <label for="Telivisions">
-                                <input type="checkbox" name="Telivisions" id="Telivisions" value="Telivisions">
-                                Telivisions
-                            </label>
-                        </li>
-
-                           <li class="list_item">
-                            <label for="Laptops">
-                                <input type="checkbox" name="Laptops" id="Laptops" value="Laptops">
-                                Laptop
-                            </label>
-                        </li>
-
-
-                           <li class="list_item">
-                            <label for="Headphones">
-                                <input type="checkbox" name="Headphones" id="Headphones" value="Headphones">
-                                Headphones
-                            </label>
-                        </li>
+                <nav aria-label="Main Menu" id="menu" class="hidden">
+                    <ul role="menubar" aria-label="Main-Menu">
+                        <li role="none"><a href="#" class="nav-link" role="menuitem">Home</a></li>
+                        <li role="none"><a href="#" class="nav-link" role="menuitem">About</a></li>
+                        <li role="none"><a href="#" class="nav-link" role="menuitem">Archives</a></li>
+                        <li role="none"><a href="#" class="nav-link" role="menuitem">Blog Posts</a></li>
+                        <li role="none"><a href="#" class="nav-link" role="menuitem">Contact</a></li>
                     </ul>
+                </nav>
+
+        </header>
+
+    <!-- header ends here -->
+
+
+    <!-- main starts here -->
+
+        <main>
+
+            <!-- banner section start here -->
+
+                <section id="blog-banner-section">
+                    <article>
+                        <h1 class="banner-heading">Web Development</h1>
+                        <p class="banner-description text-justify"> I believe web development is always fun. We should learn web
+                            development for a bright career. I have started learning web
+                            development 2 years ago and still learning. I started with HTML,
+                            CSS, JS and now I am learning next.js. I must say web development
+                            demands more patience and consistency.
+                        </p>
+                    </article>
+
+                    <aside><img src="images/rahman.jpg" alt="cover-photo" class="banner-img"></aside>
+
                 </section>
 
+            <!-- banner section ends here -->
 
 
-                <section class="price-section">
-                    <h3 class="section-title">Price Range</h3>
-                    <ul class="list">
-                        <li class="list_item">
-                            <label for="price1">
-                                <input type="radio" name="price" id="price1" value="price1">
-                                $0 - $50
-                            </label>
-                        </li>
+            <!-- about me section start here -->
 
-                           <li class="list_item">
-                            <label for="price2">
-                                <input type="radio" name="price" id="price2" value="price2">
-                                $50 - $100
-                            </label>
-                        </li>
+                <section id="blog-about" class="section-center">
+                    <h2 class="section-heading text-white">About Me</h2>
+                    <div class="card-container">
+                        <div class="card">
+                            <h3 class="card-header">Education</h3>
+                            <p class="card-description">
+                                Success is built through dedication, consistency,
+                                and smart decisions. Every small action matters.
+                                 Learn from mistakes, stay patient, improve daily,
+                                  and believe in yourself. Hard work combined with 
+                                  discipline creates confidence, purpose, direction, 
+                                  and meaningful progress in life.
 
-                           <li class="list_item">
-                            <label for="price3">
-                                <input type="radio" name="price" id="price3" value="price3">
-                                $100 - $200
-                            </label>
-                        </li>
+                            </p>
 
-                           <li class="list_item">
-                            <label for="price4">
-                                <input type="radio" name="price" id="price4" value="price4">
-                                $200+
-                            </label>
-                        </li>
-
-
-                           <li class="list_item">
-                            <label for="price5">
-                                <input type="radio" name="price" id="price5" value="price5">
-                                $500+
-                            </label>
-                        </li>
-                    </ul>
-                </section>
-
-                <section class="Shipping-section">
-                    <h3 class="section-title">Shipping-Options</h3>
-                    <ul class="list">
-                        <li class="list_item">
-                            <label for="free">
-                                <input type="radio" name="Shipping" id="free" value="free">
-                                Free Shipping
-                            </label>
-                        </li>
+                            <button type="submit" class="card-btn btn">Read More</button>
+                            
+                        </div>
+                     <!-- card 2 start here -->
+                         <div class="card">
+                            <h3 class="card-header">Education</h3>
+                            <p class="card-description">
+                               Success is built through dedication, consistency,
+                                and smart decisions. Every small action matters.
+                                 Learn from mistakes, stay patient, improve daily,
+                                  and believe in yourself. Hard work combined with 
+                                  discipline creates confidence, purpose, direction, 
+                                  and meaningful progress in life.
 
 
-                        <li class="list_item">
-                            <label for="paid">
-                                <input type="radio" name="Shipping" id="paid" value="paid">
-                                Paid Shipping
-                            </label>
-                        </li>
-                        </ul>
-                </section>
+                            </p>
 
-            </div>
-             <div class="main-content">
-                <section class="actions flex-space-around">
-                    <div class="actions_sort">
-                            <label for="sort">Sort By:</label>
-                            <select name="sort" id="sort">
-                                <option value="Sold">Most Sold First</option>
-                                <option value="rating">Most Rated First</option>
-                                <option value="price">Cheapest First</option>
-                                <option value="arrival">Newest Arrival</option>
-                                <option value="discount">Discounted Items</option>
-                            </select>
+                            <button type="submit" class="card-btn btn">Read More</button>
+                            
+                        </div>
+                     <!-- card 2 ends here -->
+
+                     <!-- card 3 start here -->
+                         <div class="card">
+                            <h3 class="card-header">Education</h3>
+                            <p class="card-description">
+                               Growth comes from discipline, patience,
+                                and daily effort. Dreams demand focus,
+                                 learning, and courage. Failures teach resilience, clarity,
+                                  and strength. Stay consistent, work honestly, improve skills,
+                                   respect time, trust the process, help others, and move
+                                    forward with confidence every day.
+
+
+                            </p>
+
+                            <button type="submit" class="card-btn btn">Read More</button>
+                            
+                        </div>
+
+                     <!-- card 1 start here -->
                     </div>
-
-                    <div class="actions_search">
-                        <input type="text" placeholder="search Products">
-                        <button class="btn">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </div>
-                    
                 </section>
 
-                <!-- Products section start here -->
-
-                    <section class="products">
-                        <article class="product card">
-                            <div class="badge">
-                                <span>5 in stock</span>
-                                <hr class="hr-design">
-                                <span>3 sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product.jpg" alt="product1">
-                            <div class="product_body">
-                                <h3 class="product_name">Remax Headphone</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                    Et erat stet duo no ipsum gubergren 
-                                    magna invidunt. Dolor diam erat diam
-                                    no Et...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$120.00</h4>
-                                <p class="product_rating">Rating: 4.5/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
-                        </article>
+            <!-- about me section ends here -->
 
 
-                        <article class="product card">
-                            <div class="badge">
-                                <span>2 in stock</span>
-                                <hr class="hr-design">
-                                <span>9 sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product2.jpg" alt="product2">
-                            <div class="product_body">
-                                <h3 class="product_name">Shadow Classic Black Watch</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                    The Shadow Classic Black Watch
-                                    features a sleek and minimalist
-                                    analog design...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$240.00</h4>
-                                <p class="product_rating">Rating: 5/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
-                        </article>
+            <!-- archives section start here -->
+
+                <section id="archives" class="section-center">
+                    <h2 class="section-heading">Archives</h2>
+                        <div class="archives-container">
+                            <ul class="archives-container-lists">
+                                <li class="archives-container-list">
+                                    <img src="images/IMG.jpg" alt="image1" class="archives-img">
+                                </li>
 
 
+                                <li class="archives-container-list">
+                                    <img src="images/img-1.jpg" alt="image1" class="archives-img">
+                                </li>
+
+                                <li class="archives-container-list">
+                                    <img src="images/img-3 (2).jpg" alt="image1" class="archives-img">
+                                </li>
+
+                                <li class="archives-container-list">
+                                    <img src="images/img-4.jpg" alt="image1" class="archives-img">
+                                </li>
+
+                                <li class="archives-container-list">
+                                    <img src="images/img-3.jpg" alt="image1" class="archives-img">
+                                </li>
+                            </ul>
+                        </div>
+                </section>
+
+             <!-- archives section ends here -->
+
+
+             <!-- blog section start here -->
+
+                <section id="blog-posts" class="section-center">
+                    <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+                    <div class="blog-post">
+                        <aside class="blog-post-aside">
+                            <img src="images/img-1.jpg" alt="laptop" class="blog-img">
+                        </aside>
                         
-                        <article class="product card">
-                            <div class="badge">
-                                <span>12 in stock</span>
-                                <hr class="hr-design">
-                                <span>15 sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product3.jpg" alt="product3">
-                            <div class="product_body">
-                                <h3 class="product_name">Urban Square Black Glasses</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                   Urban Square Black Glasses
-                                   feature a modern square frame
-                                   with a clean, minimalist look...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$100.00</h4>
-                                <p class="product_rating">Rating: 4.4/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
+                        <article class="blog-content">
+                            <h2 class="blog-heading">Blog 1</h2>
+                            <h3 class="blog-sub-heading">Sub Heading</h3>
+                            <p class="blog-description">
+                                Sed accusam takimata
+                                takimata accusam et magna accusam 
+                                est elitr et, sit sanctus est rebum ipsum.
+                                Takimata rebum erat sed aliquyam sadipscing
+                                magna diam dolor.
+                            </p>
+                            <button type="submit" class="btn blog-btn">Learn More</button>
                         </article>
-
-                                    <!-- articale 2 start here -->
-
-                        <article class="product card">
-                            <div class="badge">
-                                <span>30 in stock</span>
-                                <hr class="hr-design">
-                                <span>100+ sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product4.jpg" alt="product4">
-                            <div class="product_body">
-                                <h3 class="product_name">SlimPro Silver Laptop</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                    SlimPro Silver Laptop features 
-                                    a sleek, modern design with a 
-                                    compact and lightweight body.
-                                     Ideal for work, study, and everyday use...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$500.00</h4>
-                                <p class="product_rating">Rating: 5/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
-                        </article>
-
-
-                        <article class="product card">
-                            <div class="badge">
-                                <span>16 in stock</span>
-                                <hr class="hr-design">
-                                <span>30 sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product5.jpg" alt="product5">
-                            <div class="product_body">
-                                <h3 class="product_name">CineView 4K Smart TV</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                    CineView 4K Smart TV delivers
-                                    stunning visuals with vibrant
-                                    colors and sharp details. Its sleek...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$999.00</h4>
-                                <p class="product_rating">Rating: 5/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
-                        </article>
-
-
-                        
-                        <article class="product card">
-                            <div class="badge">
-                                <span>10 in stock</span>
-                                <hr class="hr-design">
-                                <span>16 sold</span>
-                            </div>
-                            <img class="product_img" src="./images/product6.jpg" alt="product6">
-                            <div class="product_body">
-                                <h3 class="product_name">TCL SlimPad Pro Tablet</h3>
-                                <p>
-                                    <span class="dot green"></span>
-                                    <span class="dot black"></span>
-                                    <span class="dot red"></span>
-                                </p>
-                                <p class="product_description">
-                                   TCL SlimPad Pro Tablet features
-                                    a slim, lightweight design with
-                                     a premium finish. Perfect for
-                                      entertainment, online classes, and everyday tasks...... <a href="/product.html" class="learn-more">Learn More</a>
-                                </p>
-                                <h4 class="product_price">$100.00</h4>
-                                <p class="product_rating">Rating: 4.4/5</p>
-                                <button class="btn product_button">Add To Cart</button>
-                            </div>
-                        </article>
-                    </section>
-
-                    <div class="pagination">
-                        <button class="btn pagination_button">
-                            <i class="fas fa-less-than"></i> 
-                        </button>
-                        <button class="btn pagination_button">1</button>
-                        <button class="btn pagination_button">2</button>
-                        <button class="btn pagination_button">3</button>
-                        <button class="btn pagination_button">4</button>
-                        <button class="btn pagination_button">5</button>
-                        <button class="btn pagination_button">6</button>
-                        <button class="btn pagination_button">7</button>
-                        <button class="btn pagination_button">8</button>
-                        <button class="btn pagination_button">
-                            <i class="fas fa-greater-than"></i> 
-                        </button>
                     </div>
 
-                <!-- Products section ends here -->
-             </div>
+
+                        <div class="blog-post">
+                        <aside class="blog-post-aside">
+                            <img src="images/img-3.jpg" alt="laptop" class="blog-img">
+                        </aside>
+                        
+                        <article class="blog-content">
+                            <h2 class="blog-heading">Blog 2</h2>
+                            <h3 class="blog-sub-heading">Sub Heading</h3>
+                            <p class="blog-description">
+                                Sed accusam takimata
+                                takimata accusam et magna accusam 
+                                est elitr et, sit sanctus est rebum ipsum.
+                                Takimata rebum erat sed aliquyam sadipscing
+                                magna diam dolor.
+                            </p>
+                            <button type="submit" class="btn blog-btn">Learn More</button>
+                        </article>
+                    </div>
+
+
+
+                        <div class="blog-post">
+                        <aside class="blog-post-aside">
+                            <img src="images/img-4.jpg" alt="laptop" class="blog-img">
+                        </aside>
+                        
+                        <article class="blog-content">
+                            <h2 class="blog-heading">Blog 3</h2>
+                            <h3 class="blog-sub-heading">Sub Heading</h3>
+                            <p class="blog-description">
+                                Sed accusam takimata
+                                takimata accusam et magna accusam 
+                                est elitr et, sit sanctus est rebum ipsum.
+                                Takimata rebum erat sed aliquyam sadipscing
+                                magna diam dolor.
+                            </p>
+                            <button type="submit" class="btn blog-btn">Learn More</button>
+                        </article>
+                    </div>
+                </section>
+
+             <!-- blog section ends here -->
+
+
+             <!-- contact section start here -->
+
+
+                <section id="contact-section" class="section-center">
+                          <h2 class="section-heading blog-posts-heading text-white">Contact Me</h2>
+                          <form action="" id="contact-form">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input type="text"id="name" required autocomplete="name">
+                            </div>
+
+
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input type="email"id="email" required autocomplete="email">
+                            </div>
+
+                            <div class="form-control form-btn-field">
+                                <label for="message">message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+
+
+                            <div class="form-control">
+                                <button type="submit" class="btn contact-btn">Submit</button>
+                               
+                            </div>
+                          </form>
+                </section>
+
+
+             <!-- contact section start here -->
+
         </main>
 
-    <!-- footer start here -->
+    <!-- main ends here -->
 
-     <footer class="footer flex-space-around">
-        <div class="flex-space-around">
-            <label for="subscribe">Subscribe To News Letter:</label>
-            <input type="email" id="Subscribe"
-            name="Subscribe" class="footer_input"
-            placeholder="Enter Your Email">
-            <button class="btn btn-sunscribe">Subscribe</button>
-        </div>
-        <div>
-            <p>&copy; 2024 Tahmid Express. All rights reserved.</p>
-        </div>
-     </footer>
-    
-     
+    <!-- footer section start here -->
 
-      <!-- footer ends here -->
+        <footer>
+            <p class="copyright-text">
+                Copyright &copy; by Tahmid.All Rights Reserved.
+            </p> 
+            <nav aria-label="Footer Menu">
+                    <ul role="menubar2" id="menubar2" aria-label="Footer Menu">
+                     <li role="none">
+  <a href="https://www.facebook.com/" target="_blank" class="nav-link" role="menuitem">
+    <i class="fab fa-facebook footer-icon"></i>
+  </a>
+</li>
+
+                        <li role="none"><a href="https://www.youtube.com/@TahmidRahman-yx1qy"target="blank" class="nav-link" role="menuitem"><i class="fab fa-youtube footer-icon"></i></a></li>
+                        <li role="none"><a href="https://github.com/"target="blank" class="nav-link" role="menuitem"><i class="fab fa-github footer-icon"></i></a></li>
+                        <li role="none"><a href="https://www.linkedin.com/in/shoaibajmi/"target="blank" class="nav-link" role="menuitem"><i class="fab fa-linkedin footer-icon"></i></a></li>
+                        
+                    </ul>
+                </nav>
+        </footer>
+
+     <!-- footer section start here -->
 
 
-      <script src="./scripts/index.js"></script>
+    <script src="./script/index.js"></script>
 </body>
 </html>
